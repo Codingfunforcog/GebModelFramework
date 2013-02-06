@@ -44,6 +44,7 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="IdProvider" IDEtalkID="3A9D696AD1E824EE589A121A41758A9E" />
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -60,6 +61,9 @@
     <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectResources">
+    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.6" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/classes" />
@@ -159,6 +163,7 @@
       <Port>5050</Port>
     </configuration>
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="true" />
   <component name="masterDetails">
     <states>
       <state key="ProjectJDKs.UI">
