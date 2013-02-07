@@ -7,8 +7,8 @@
 import org.openqa.selenium.chrome.ChromeDriver
 
 reportsDir = "target/geb-reports"
-baseUrl = "https://www.o2.co.uk/shop"
-System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\chromedriver.exe");
+baseUrl = "http://shop.o2.co.uk/home"
+System.setProperty("webdriver.chrome.driver", "D:\\Softwares\\Chrome Driver\\chromedriver.exe");
 driver = { new ChromeDriver() }
 
 environments {

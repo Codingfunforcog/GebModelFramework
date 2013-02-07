@@ -7,4 +7,11 @@ import geb.Page
  * To change this template use File | Settings | File Templates.
  */
 class HomePage extends Page {
+    static url = "http://shop.o2.co.uk/home"
+    static at = { title == "O2 Shop - Home" }
+
+    static content = {
+        title { $('title') }
+        supportLink { $("a", title:"Get Support from O2") }
+    }
 }
