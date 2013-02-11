@@ -10,6 +10,6 @@ class BusinessTests {
         iClickOnTheBusinessPhone()
         iClickOnBuyNowForSamsungMini()
         iClickOnCheckOut()
-        iSelectBusinessType()
+//        iSelectBusinessType()
     }
 }
