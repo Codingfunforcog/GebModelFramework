@@ -1,7 +1,7 @@
 import org.junit.Test
 
 
-@Mixin([BusinessSteps, BuyNowSteps,CheckOutSteps,FormDetailsStep])
+@Mixin([BusinessSteps, BuyNowSteps, CheckOutSteps, FormDetailsStep])
 class BusinessTests {
 
     @Test

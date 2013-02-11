@@ -19,7 +19,7 @@ import spock.lang.Stepwise
 // The following code structure is from a sample framework. This needs to be revised by the team.
 @Stepwise
 class SampleO2Script extends GebReportingSpec {
-    
+
     def "go to o2.co.uk"() {
         when:
         go() // uses base url system property
@@ -27,15 +27,15 @@ class SampleO2Script extends GebReportingSpec {
         then:
         waitFor {title.endsWith("UK's Leading Provider")}
     }
-    
+
     def "click on Priority link"() {
         when:
-        def PriorityLink =  $(title : "Priority");
+        def PriorityLink = $(title: "Priority");
         waitFor { PriorityLink.displayed }
         PriorityLink.click()
-        
+
         then:
         waitFor {title.endsWith("UK's Leading Provider")}
     }
-    
+
 }

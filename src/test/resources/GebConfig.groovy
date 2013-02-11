@@ -14,8 +14,8 @@ driver = { new ChromeDriver() }
 
 environments {
 
-	chrome {
-		driver = { new ChromeDriver() }
-	}
+    chrome {
+        driver = { new ChromeDriver() }
+    }
 
 }

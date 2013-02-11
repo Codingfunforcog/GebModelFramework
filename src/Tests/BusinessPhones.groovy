@@ -1,31 +1,30 @@
-        import CommonActions
-        import geb.spock.GebReportingSpec
-        import geb.Browser
-        import org.junit.Test
+import CommonActions
+import geb.spock.GebReportingSpec
+import geb.Browser
+import org.junit.Test
 
-     @Mixin([HomeSteps])
-      class BusinessPhones extends GebReportingSpec {
+@Mixin([HomeSteps])
+class BusinessPhones extends GebReportingSpec {
 
 
+    def "go to O2 site"() {
 
-       def "go to O2 site"() {
+        when:
+        go()
 
-                when:
-                go()
+        and:
+        assert title == "O2 Shop - Home"
 
-                and:
-                assert title == "O2 Shop - Home"
+        then:
+        HomeSteps
 
-                then:
-                 HomeSteps
+        then:
+        println("I am there")
+    }
 
-                then:
-                println("I am there")
-       }
+}
 
-        }
-
-             /*
+/*
                $("a",title:"View best business deals from O2").click()
                 and:
 

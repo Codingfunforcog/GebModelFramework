@@ -1,11 +1,11 @@
 import org.junit.Test
 
 @Mixin([HomeSteps])
-class HomeTest{
+class HomeTest {
 
     @Test
-    void verifyWeAreOnHomePage(){
-         iAmOnHomePage()
+    void verifyWeAreOnHomePage() {
+        iAmOnHomePage()
     }
 
 }

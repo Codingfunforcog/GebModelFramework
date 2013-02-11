@@ -12,7 +12,7 @@ class HomePage extends Page {
 
     static content = {
 
-        supportLink { $("a", title:"Get Support from O2") }
+        supportLink { $("a", title: "Get Support from O2") }
 
     }
 }

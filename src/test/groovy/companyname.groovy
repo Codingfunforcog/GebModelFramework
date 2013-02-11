@@ -1,11 +1,7 @@
+class CompanyName extends BusinessPhones {
 
-
-
-class CompanyName extends BusinessPhones{
-
-    public static def CompanyName1()
-    {
-      def CompanyNameFields = $("a",class:"busTypeSelTab") == "abcd"
+    public static def CompanyName1() {
+        def CompanyNameFields = $("a", class: "busTypeSelTab") == "abcd"
 
     }
 
