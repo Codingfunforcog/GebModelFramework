@@ -6,7 +6,7 @@ class BusinessTests {
 
     @Test
     void verifyWeAreOnHomePageO2() {
-        iamOnHomePage()
+        iAmOnHomePage()
         iClickOnTheBusinessPhone()
         iClickOnBuyNowForSamsungMini()
         iClickOnCheckOut()

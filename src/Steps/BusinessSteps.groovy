@@ -1,7 +1,7 @@
 import geb.Browser
 
 class BusinessSteps {
-    def iamOnHomePage = {
+    def iAmOnHomePage = {
         Browser.drive {
             to HomePageO2
             assert at(HomePageO2)
