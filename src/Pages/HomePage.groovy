@@ -11,7 +11,8 @@ class HomePage extends Page {
     static at = { title == "O2 Shop - Home" }
 
     static content = {
-        title { $('title') }
+
         supportLink { $("a", title:"Get Support from O2") }
+
     }
 }

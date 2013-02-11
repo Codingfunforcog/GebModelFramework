@@ -2,7 +2,7 @@
 import CommonActions
 import geb.spock.GebReportingSpec
 
-class BusinessPhones extends GebReportingSpec {
+class BusinessPhones1 extends GebReportingSpec {
 
     def "go to O2 site"() {
 

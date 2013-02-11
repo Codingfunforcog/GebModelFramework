@@ -2,7 +2,7 @@ import geb.Browser
 import geb.spock.GebReportingSpec
 import org.openqa.selenium.By
 
-class CommonActions extends GebReportingSpec{
+class CommonActions1 extends GebReportingSpec{
 
     public static def findElementByXpath(Browser objBrwser, String expression) {
     try {
