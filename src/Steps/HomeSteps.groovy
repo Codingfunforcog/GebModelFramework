@@ -1,8 +1,8 @@
 import geb.Browser
 
-class HomeSteps{
+class HomeSteps {
     def iAmOnHomePage = {
-        Browser.drive{
+        Browser.drive {
             to HomePage
             assert at(HomePage)
 

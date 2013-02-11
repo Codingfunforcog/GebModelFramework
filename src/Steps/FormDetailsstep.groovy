@@ -7,7 +7,7 @@ import geb.Browser
  * To change this template use File | Settings | File Templates.
  */
 class FormDetailsStep {
-    def  iSelectBusinessType = {
+    def iSelectBusinessType = {
         Browser.drive {
             assert at(FormDetailPage)
             businessType.click()

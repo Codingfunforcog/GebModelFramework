@@ -1,8 +1,7 @@
-
 import geb.Browser
 import org.openqa.selenium.By
 
-class CommonActions{
+class CommonActions {
 
     public static def findElementByXpath(Browser browser, String expression) {
         try {
