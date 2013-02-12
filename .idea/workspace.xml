@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88504ca2-9335-4c5c-9708-6b72d53ea72c" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\groovy\BusinessPhones.groovy" afterPath="" />
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\groovy\CommonActions.groovy" afterPath="" />
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\groovy\SampleO2Script.groovy" afterPath="" />
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\groovy\companyname.groovy" afterPath="" />
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\groovy\test1.groovy" afterPath="" />
-      <change type="DELETED" beforePath="D:\GebModelFramework\src\test\resources\GebConfig.groovy" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/GebConfig.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geb-maven-example.iml" afterPath="$PROJECT_DIR$/geb-maven-example.iml" />
-      <change type="MOVED" beforePath="D:\GebModelFramework\src\test\resources\chromedriver.exe" afterPath="$PROJECT_DIR$/src/Resources/chromedriver.exe" />
     </list>
     <ignored path="geb-maven-example.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,7 +99,7 @@
       <file leaf-file-name="BusinessTests.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/BusinessTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.272">
+            <state line="6" column="7" selection-start="123" selection-end="123" vertical-scroll-proportion="0.272">
               <folding />
             </state>
           </provider>
@@ -115,7 +108,16 @@
       <file leaf-file-name="GebConfig.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Resources/GebConfig.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="70" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+            <state line="11" column="68" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="93" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -633,7 +635,11 @@
       <created>1360654067033</created>
       <updated>1360654067033</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactoring the framework structure, removing unnecessary folders and files">
+      <created>1360654400977</created>
+      <updated>1360654400977</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -703,7 +709,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removing unnecessary file changing the locator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactoring the framework structure, removing unnecessary folders and files" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -719,6 +725,7 @@
     <MESSAGE value="Removing unnecessary EchoingPageChangeListener" />
     <MESSAGE value="Ran formatting code, beautifying all the files :)" />
     <MESSAGE value="Removing unnecessary file changing the locator" />
+    <MESSAGE value="Refactoring the framework structure, removing unnecessary folders and files" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -778,16 +785,37 @@
         <state line="7" column="40" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tests/chromedriver.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/geb-maven-example.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="47" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-0.9723757">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="93" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="70" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+        <state line="11" column="68" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/BusinessTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="124" selection-end="124" vertical-scroll-proportion="0.272">
+        <state line="6" column="7" selection-start="123" selection-end="123" vertical-scroll-proportion="0.272">
           <folding />
         </state>
       </provider>
