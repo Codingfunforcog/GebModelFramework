@@ -1,16 +1,23 @@
 import geb.Browser
-/**
- * Created with IntelliJ IDEA.
- * User: CTS1
- * Date: 2/8/13
- * Time: 5:44 PM
- * To change this template use File | Settings | File Templates.
- */
+import org.openqa.selenium.By
+import org.openqa.selenium.support.ui.Select
+import org.openqa.selenium.WebElement
+
+
 class FormDetailsStep {
     def iSelectBusinessType = {
         Browser.drive {
-            assert at(FormDetailPage)
-            businessType.click()
+            withWindow({$("h1", text: "Checkout").click()}) {
+                assert at(FormDetailPage)
+                driver.findElement(By.xpath("//*[@id='j_id0:j_id1:o2Template:j_id133:businessType']/option[2]")).click()
+                waitFor { companyName.present }
+                companyName.value("abcCompany")
+                registrationNumber.value("122")
+                businessPhoneNumber.value("07899879789")
+                numberOfEmployees.value("10")
+
+            }
         }
     }
+
 }

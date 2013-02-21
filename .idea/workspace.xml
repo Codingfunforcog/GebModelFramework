@@ -2,18 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88504ca2-9335-4c5c-9708-6b72d53ea72c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Resources/GebConfig.groovy" />
+      <change type="DELETED" beforePath="D:\GebModelFramework\src\Pages\HomePage.groovy" afterPath="" />
+      <change type="DELETED" beforePath="D:\GebModelFramework\src\Tests\BusinessPhones.groovy" afterPath="" />
+      <change type="DELETED" beforePath="D:\GebModelFramework\src\Tests\HomeTest.groovy" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/geb-maven-example.iml" afterPath="$PROJECT_DIR$/geb-maven-example.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pages/CheckOutPage.groovy" afterPath="$PROJECT_DIR$/src/Pages/CheckOutPage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pages/FormDetailPage.groovy" afterPath="$PROJECT_DIR$/src/Pages/FormDetailPage.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy" afterPath="$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy" afterPath="$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Tests/BusinessTests.groovy" afterPath="$PROJECT_DIR$/src/Tests/BusinessTests.groovy" />
     </list>
     <ignored path="geb-maven-example.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358320176126" ignored="false" />
-    <file path="/a.dummy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358249776672" ignored="false" />
-    <file path="/GoogleWikipediaSpec.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358249459404" ignored="false" />
-    <file path="/fragment.java" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358329924498" ignored="false" />
-    <file path="/SampleFrameworkO2.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358320681524" ignored="false" />
-    <file path="/Sample framework for O2.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358321458987" ignored="false" />
     <file path="/SampleO2Script.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358331174670" ignored="false" />
+    <file path="/Sample framework for O2.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358321458987" ignored="false" />
+    <file path="/SampleFrameworkO2.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358320681524" ignored="false" />
+    <file path="/fragment.java" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358329924498" ignored="false" />
+    <file path="/GoogleWikipediaSpec.groovy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358249459404" ignored="false" />
+    <file path="/a.dummy" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358249776672" ignored="false" />
+    <file path="/Dummy.txt" changelist="88504ca2-9335-4c5c-9708-6b72d53ea72c" time="1358320176126" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +36,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" />
     <breakpoint_any default_suspend_policy="SuspendAll">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -60,9 +69,34 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" />
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/src/Steps/HomeSteps.groovy" line="1" class="HomeSteps.groovy" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy" line="11" class="FormDetailsStep" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Pages/FormDetailPage.groovy" line="7" class="FormDetailPage" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -87,64 +121,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BuyNowSteps.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Steps/BuyNowSteps.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BusinessTests.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tests/BusinessTests.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="7" selection-start="123" selection-end="123" vertical-scroll-proportion="0.272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GebConfig.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Resources/GebConfig.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="68" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="93" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CheckOutPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/CheckOutPage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FormDetailPage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/FormDetailPage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="33" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomePage.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pages/HomePage.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+            <state line="6" column="6" selection-start="122" selection-end="122" vertical-scroll-proportion="0.272">
               <folding />
             </state>
           </provider>
@@ -153,7 +133,25 @@
       <file leaf-file-name="BusinessSteps.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Steps/BusinessSteps.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="27" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+            <state line="3" column="8" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormDetailsstep.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="27" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wait.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/gebish/geb-core/0.9.0-RC-1/geb-core-0.9.0-RC-1.jar!/geb/waiting/Wait.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-8.08">
               <folding />
             </state>
           </provider>
@@ -162,7 +160,45 @@
       <file leaf-file-name="HomePageO2.groovy" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Pages/HomePageO2.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="227" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FormDetailPage.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/FormDetailPage.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="5" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GebConfig.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Resources/GebConfig.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="9" selection-start="48" selection-end="103" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BuyPhonesPage.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/BuyPhonesPage.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CheckOutPage.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Pages/CheckOutPage.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="27" selection-start="0" selection-end="259" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -181,22 +217,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Steps/CommonActions.groovy" />
         <option value="$PROJECT_DIR$/src/Pages/BuyPhonesPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/CommonActions.groovy" />
         <option value="$PROJECT_DIR$/src/Steps/BuyNowSteps.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/EchoingPageChangeListener.groovy" />
-        <option value="$PROJECT_DIR$/src/Pages/CheckOutPage.groovy" />
-        <option value="$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy" />
         <option value="$PROJECT_DIR$/src/Steps/FormdetailsSteps.groovy" />
-        <option value="$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy" />
-        <option value="$PROJECT_DIR$/src/Pages/FormDetailPage.groovy" />
         <option value="$PROJECT_DIR$/src/test/resources/GebConfig.groovy" />
         <option value="$PROJECT_DIR$/src/Steps/BusinessSteps.groovy" />
-        <option value="$PROJECT_DIR$/src/Tests/BusinessTests.groovy" />
-        <option value="$PROJECT_DIR$/src/Pages/HomePageO2.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/test1.groovy" />
         <option value="$PROJECT_DIR$/src/Resources/GebConfig.groovy" />
+        <option value="$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy" />
+        <option value="$PROJECT_DIR$/src/Pages/dfr.groovy" />
+        <option value="$PROJECT_DIR$/src/Pages/HomePageO2.groovy" />
+        <option value="$PROJECT_DIR$/src/Tests/BusinessTests.groovy" />
+        <option value="$PROJECT_DIR$/src/Pages/CheckOutPage.groovy" />
+        <option value="$PROJECT_DIR$/src/Pages/FormDetailPage.groovy" />
+        <option value="$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy" />
       </list>
     </option>
   </component>
@@ -234,6 +270,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geb-maven-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geb-maven-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,6 +333,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Steps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -302,6 +356,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geb-maven-example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GebModelFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -314,17 +386,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -466,13 +537,10 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
-      <setting name="path" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="D:\GebModelFramework" />
-      <setting name="debug" value="false" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -480,10 +548,13 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="D:\GebModelFramework" />
+      <setting name="debug" value="false" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -500,6 +571,24 @@
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
@@ -529,24 +618,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -650,8 +721,9 @@
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32692307" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5977564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34134614" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -664,10 +736,9 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43910256" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44070512" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32852563" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -735,87 +806,109 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Steps/chromedriver.log">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/groovy/groovy-all/1.8.6/groovy-all-1.8.6-sources.jar!/groovy/lang/Mixin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="33" column="18" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/gebish/geb-core/0.9.0-RC-1/geb-core-0.9.0-RC-1.jar!/geb/content/PageContentTemplateBuilder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="17" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/BuyPhonesPage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="27" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" />
+        <state line="18" column="82" selection-start="948" selection-end="948" vertical-scroll-proportion="-4.68">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Steps/BuyNowSteps.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="403" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/CheckOutSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="18" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/HomeSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/BuyPhonesPage.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/CheckOutPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" />
+        <state line="8" column="27" selection-start="0" selection-end="259" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Pages/FormDetailPage.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="33" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/HomePage.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="24" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Steps/BusinessSteps.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="27" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pages/HomePageO2.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tests/chromedriver.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/geb-maven-example.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="47" selection-start="1327" selection-end="1327" vertical-scroll-proportion="-0.9723757">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="93" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="5" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Resources/GebConfig.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="68" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
+        <state line="3" column="9" selection-start="48" selection-end="103" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pages/HomePageO2.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="227" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/gebish/geb-core/0.9.0-RC-1/geb-core-0.9.0-RC-1.jar!/geb/waiting/Wait.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-8.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/BusinessSteps.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="8" selection-start="50" selection-end="50" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/gebish/geb-core/0.9.0-RC-1/geb-core-0.9.0-RC-1.jar!/geb/Browser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="30" selection-start="5987" selection-end="5987" vertical-scroll-proportion="0.4029575">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Steps/FormDetailsstep.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="27" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tests/BusinessTests.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="7" selection-start="123" selection-end="123" vertical-scroll-proportion="0.272">
+        <state line="6" column="6" selection-start="122" selection-end="122" vertical-scroll-proportion="0.272">
           <folding />
         </state>
       </provider>
@@ -877,7 +970,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -897,11 +989,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: cglib:cglib-nodep:2.1_3</last-edited>
+          <last-edited>selenium-support-2.0a7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.60231215" />
               </list>
             </option>
           </splitter-proportions>
